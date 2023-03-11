@@ -67,10 +67,10 @@ int main()
 
      }
 
-       printf("digite ('0') para escolher outra operacao");
-       getch();
+       printf("digite ('1') para escolher outra operacao e digite ('0') para sair do programa");
+       oper = getch();
        system("cls");
- 
+
  }
  
        while(oper != '0');
